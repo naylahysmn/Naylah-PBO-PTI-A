@@ -7,6 +7,7 @@ NIM  : 235150600111004
 ## 📤 Submission
 
 Tema yang dipilih : Pekerjaan
+
 Class Diagram yang dibuat : 
 1. Class Diagram 1 : Dokter
 2. Class Diagram 2 : Pasien
