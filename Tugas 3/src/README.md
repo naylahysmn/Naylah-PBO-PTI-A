@@ -14,3 +14,4 @@ Class Diagram yang dibuat :
 3. Class Diagram 3 : Resep
 
 ## 🔗 Link Penjelasan Tugas
+https://www.youtube.com/watch?v=l2Xu-TEyhF0
