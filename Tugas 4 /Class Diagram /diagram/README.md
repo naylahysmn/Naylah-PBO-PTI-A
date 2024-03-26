@@ -8,8 +8,9 @@ NIM  : 235150600111004
 
 Tema yang dipilih : 
 Class Diagram yang dibuat : 
-1. Class Diagram 1
-2. Class Diagram 2
+1. Class Diagram 1 : Dokter
+2. Class Diagram 2 : Pasien
+3. Class Diagram 3 : Resep
 dst
 
 ## Implementasi CRUD
