@@ -13,6 +13,4 @@ Class Diagram yang dibuat :
 dst
 
 ## 🔗 Link Penjelasan Tugas Modul
-
-https://www.youtube.com/watch?v=dQw4w9WgXcQ
-
+https://www.youtube.com/watch?v=qYTOw3NnRn8
