@@ -28,5 +28,4 @@ Gunakan template ini apabila kamu mengerjakan optional requirements
 
 ## 🔗 Link Penjelasan Tugas
 
-https://www.youtube.com/watch?v=dQw4w9WgXcQ
-
+https://www.youtube.com/watch?v=4KTLpr5bYOc
