@@ -1,0 +1,103 @@
+Encapsulation 1
+1. Lakukan percobaan diatas dan benahi jika menemukan kesalahan!
+// no.1 sebelum perbaikan
+    // s1.setMark("90");
+    // System.out.println("s1Name is "+s1.setName());
+    // System.out.println("s1Mark is "+s1.setMark());
+    // System.out.println("name dan mark "+name+" "+mark);
+
+    // no.1 setelah perbaikan
+    s1.setMark(90);
+    System.out.println("s1Name is "+s1.getName());
+    System.out.println("s1Mark is "+s1.getMark());
+    System.out.println("name and mark "+s1.getName()+" "+s1.getMark());
+
+2. Jika pada baris 6 s1.setName diubah menjadi s1.getName apa yang terjadi? jelaskan!
+terjadi error karena pada kelas Test.java tertuliskan setName pada baris ke 4 yang ketika diubah akan jadi eror
+
+3. Setelah diperbaiki, ubahlah hak akses pada baris 4 (pada class Student) menjadi private apa yang terjadi jika class Test dijalankan? Jelaskan!
+terjadi error karena pada kelas Test.java tidak dapat memasukkan nilai name pada objek s1
+
+4. Jika kedua kelas diatas terdapat dalam package yang sama apakah konsep enkapsulasi tetap berfungsi? jelaskan!
+tetap berfungsi karena atribut name dan mark dalam kelas Student.java yang dideklarasikan sebagai private yang mana tidak dapat diakses langsung
+dari luar kelas tersebut tetapi masih berada di bagian kelas Student.java yang dapat diakses darimana saja asal dalam package yang sama
+
+
+
+Encapsulation 2
+1. Method apakah yang menjadi accessor (getter) ?
+// no. 1 accessor (getter) 1 karena mengembalikan nilai dari atribut load 
+   public double getLoad(){
+       return this.load;
+   }
+// no.1 accessor (getter) 2 karena mengembalikan nilai dari atribut maxload
+   public double getMaxLoad(){
+       return this.maxLoad;
+   }
+
+2. Tambahkan source code berikut dibawah baris ke 6 pada class TestVehicle1.
+    a. System.out.println("Add load(100kg) : " + (vehicle.load=500));
+    // done
+    b. Jalankan program, apakah output dari program tersebut?
+    // terjadi eror karena atribut load dideklarasikan sebagai private yang tidak dapat diakses langsung dari luar kelas tersebut 
+    c. Kembalikan program seperti semula.
+    // done
+
+3. Ubahlah tipe data pada atribut load dan maxload pada class Vehicle1 menjadi public. 
+Jalankan program, apakah output dari program tersebut?
+// Creating a vehicle with a 10,000 kg maximumload.
+   Add box #1 (500kg) : true
+   Add box #2 (250kg) : true
+   Add box #3 (5000kg) : true
+   Add box #4 (4000kg) : true
+   Add box #5 (300kg) : false
+   Vehicle load is 9750.0kg
+
+    a. Tambahkan source kode berikut dibawah baris ke 6 pada class TestVehicle1.
+      - System.out.println("Add load(100kg) : " + (vehicle.load=500));
+      // done
+      - Jalankan program, apakah output dari program tersebut? 
+      // Creating a vehicle with a 10,000 kg maximumload.
+         Add box #1 (500kg) : true
+         Add load(100kg) : 500.0
+         Add box #2 (250kg) : true
+         Add box #3 (5000kg) : true
+         Add box #4 (4000kg) : true
+         Add box #5 (300kg) : false
+         Vehicle load is 9750.0kg
+      - Kembalikan program seperti semula.
+      // done
+    b. Tambahkan source kode berikut dibawah baris ke 12 pada class TestVehicle1.
+      - System.out.println("Add load(100kg) : " + (vehicle.load=500));
+      // done
+      - Jalankan program, apakah output dari program tersebut?
+      // Creating a vehicle with a 10,000 kg maximumload.
+         Add box #1 (500kg) : true
+         Add box #2 (250kg) : true
+         Add box #3 (5000kg) : true
+         Add box #4 (4000kg) : true
+         Add load(100kg) : 500.0
+         Add box #5 (300kg) : true
+         Vehicle load is 800.0kg
+      - Kembalikan program seperti semula.
+      // done
+
+4. Ulangi instruksi pada nomer 4 dengan mengubah tipe data pada atribut load dan maxload 
+pada class Vehicle1 menjadi protected.
+// Creating a vehicle with a 10,000 kg maximumload.
+   Add box #1 (500kg) : true
+   Add box #2 (250kg) : true
+   Add box #3 (5000kg) : true
+   Add box #4 (4000kg) : true
+   Add box #5 (300kg) : false
+   Vehicle load is 9750.0kg
+
+5. Ulangi instruksi pada nomer 4 dengan mengubah tipe data pada atribut load dan maxload 
+pada class Vehicle1 menjadi default.
+// Creating a vehicle with a 10,000 kg maximumload.
+   Add box #1 (500kg) : true
+   Add box #2 (250kg) : true
+   Add box #3 (5000kg) : true
+   Add box #4 (4000kg) : true
+   Add box #5 (300kg) : false
+   Vehicle load is 9750.0kg
